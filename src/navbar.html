@@ -5,15 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Parigi</title>
     <link rel="stylesheet" type="text/css" href="./css/common.css" />
+    <style>
+      h1 {
+        font-size: 50px;
+        color: var(--c-txt-titolo);
+        text-align: center;
+        margin-top: 40px;
+        opacity: 1;
+      }
+      .sfondo-titolo {
+        border: 2px solid var(--c-txt-titolo);
+        width: 500px;
+        height: 150px;
+        background-image: url(./images/parigi2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+      }
+    </style>
   </head>
   <body>
     <header>
       <div class="cont-nav">
         <nav>
-          <!--
-
-        <span class="tasto-nav no-padding">
-            <a href="https://www.wikipedia.org/">Wikipedia</a></span>-->
           <span class="tasto-nav no-padding">
             <a href="https://www.repubblica.it/">La Repubblica italiana</a>
           </span>
@@ -24,12 +38,7 @@
       </div>
 
       <div class="cont-titolo">
-        <div class="sfondo-titolo"><h1>Parigi</h1>
-          <img
-          src="./images/parigi2.jpg"
-          alt="immagine parigi2"
-          class="dimensioni"
-        /></div>
+        <div class="sfondo-titolo immagine-elaborata"><h1>Parigi</h1></div>
       </div>
     </header>
     <main>
@@ -311,22 +320,22 @@
     <footer>
       <div class="cont-footer font-footer">
         <div>
-          <li class="listaorizzontale tasto-nav padding-footer">
+          <div class="listaorizzontale tasto-nav padding-footer">
             Link:
             <ul>
               <li><a href="https://www.ryanair.com/it/it">Ryan Air</a></li>
               <li><a href="https://www.repubblica.it/">Repubblica</a></li>
             </ul>
-          </li>
+          </div>
         </div>
         <div>
-          <li class="listaorizzontale tasto-nav padding-footer">
+          <div class="listaorizzontale tasto-nav padding-footer">
             Contatti:
             <ul>
               <li>Numero</li>
               <li>Email</li>
             </ul>
-          </li>
+          </div>
         </div>
       </div>
     </footer>

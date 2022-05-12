@@ -40,25 +40,28 @@ a:visited {
 
 .cont-titolo {
   display: flex;
+  align-items: center;
   justify-content: center;
+  align-content: space-around;
   margin-bottom: 15px;
 }
 
-.sfondo-titolo {
-  border: 2px solid red;
-  width: 70%;
+.immagine-elaborata {
+  max-width: 100%;
+  /*height: auto;*/
+  opacity: 0.5;
 }
 
-/*.immagine-elaborata {
-  max-width: 100%;
-  height: auto;
-  opacity: 0.5;
-  border-radius: 50%;
-}*/
-
 h1 {
+  font-size: 50px;
   color: var(--c-txt-titolo);
   text-align: center;
+  margin-top: 40px;
+  opacity: 1;
+}
+
+.titolo-center {
+  float:left;
 }
 
 body {
@@ -88,7 +91,7 @@ p {
   border: 2px solid var(--c-txt-titolo);
   padding: 15px;
   /*margin-left: 200px;*/
-}*/
+}
 
 .sticky {
   position: sticky;
