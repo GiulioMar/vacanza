@@ -39,18 +39,48 @@ a:visited {
 }
 
 .cont-titolo {
+  position: relative;
+  text-align: center;
+  height: 150px;
+  margin-bottom: 15px;
+  /*color: red;
+  font-size: 2em;
+  font-weight: bold;*/
+  overflow: hidden;
+}
+
+.sfondo-titolo {
+  border: 2px solid var(--c-txt-titolo);
+  width: 500px;
+  height: 150px;
+  /*background-image: url(./../images/parigi2.jpg);*/
+  /*background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;*/
+}
+
+.immagine-elaborata {
+  max-width: 500px;
+  
+  opacity: 0.5;
+}
+
+.titolo-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*.cont-titolo {
   display: flex;
   align-items: center;
   justify-content: center;
   align-content: space-around;
   margin-bottom: 15px;
-}
+}*/
 
-.immagine-elaborata {
-  max-width: 100%;
-  /*height: auto;*/
-  opacity: 0.5;
-}
+
 
 h1 {
   font-size: 50px;
@@ -60,9 +90,11 @@ h1 {
   opacity: 1;
 }
 
-.titolo-center {
+/*.titolo-center {
   float:left;
-}
+}*/
+
+
 
 body {
   background-color: rgba(245, 245, 220, 0.511);
