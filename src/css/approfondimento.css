@@ -42,7 +42,6 @@ a:visited {
   position: relative;
   text-align: center;
   height: 150px;
-  margin-bottom: 15px;
   overflow: hidden;
 }
 
@@ -151,7 +150,7 @@ p {
   }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 380px) {
   .dimensioni {
     max-width: 225px;
     max-height: auto;
@@ -197,14 +196,32 @@ footer a:visited {
 
 /* Approfondimento */
 
-.back-image {
+.back-approfondimento {
   background-image: url(./../images/parigi3.jpg);
   background-repeat: no-repeat;
-  position: sticky;
-  background-size:contain;
+  background-size:cover;
 }
 
 .margin-approfondimento {
   margin-left: 195px;
   background-color: var(--c-bkg-body);
+}
+
+@media screen and (max-width:550px){
+  .margin-approfondimento {
+    margin-left: 0px;
+  }
+
+  .back-approfondimento {
+    background-image: url(./../images/parigi3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 35px;
 }
