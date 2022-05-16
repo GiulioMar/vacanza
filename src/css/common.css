@@ -197,15 +197,15 @@ footer a:visited {
 
 /* Approfondimento */
 
-.back-image {
+/*.back-image {
   background-image: url(./../images/parigi3.jpg);
   background-repeat: no-repeat;
   position: sticky;
   background-size:contain;
-}
+}*/
 
-.margin-approfondimento {
+/*.margin-approfondimento {
   margin-left: 195px;
   background-color: var(--c-bkg-body);
-}
+}*/
 
